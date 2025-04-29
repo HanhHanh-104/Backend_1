@@ -1,4 +1,4 @@
-package com.example.hospitalbackend.auth;
+package com.example.hospitalbackend.auth.repository;
 
 import com.example.hospitalbackend.auth.Entity.TaiKhoan;
 import org.springframework.data.jpa.repository.JpaRepository;

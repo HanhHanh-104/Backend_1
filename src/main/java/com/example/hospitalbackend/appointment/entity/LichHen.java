@@ -1,4 +1,4 @@
-package com.example.hospitalbackend.appointment;
+package com.example.hospitalbackend.appointment.entity;
 
 import com.example.hospitalbackend.entity.BacSi;
 import com.example.hospitalbackend.entity.CaKham;

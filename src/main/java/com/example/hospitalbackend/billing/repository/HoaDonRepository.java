@@ -1,4 +1,6 @@
-import com.example.hospitalbackend.billing.HoaDon;
+package com.example.hospitalbackend.billing.repository;
+
+import com.example.hospitalbackend.billing.entity.HoaDon;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

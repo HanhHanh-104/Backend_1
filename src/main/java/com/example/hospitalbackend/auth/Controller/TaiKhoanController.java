@@ -1,5 +1,6 @@
-package com.example.hospitalbackend.auth;
+package com.example.hospitalbackend.auth.Controller;
 
+import com.example.hospitalbackend.auth.Service.TaiKhoanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

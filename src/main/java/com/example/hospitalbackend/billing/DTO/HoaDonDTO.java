@@ -1,4 +1,6 @@
-package com.example.hospitalbackend.billing;
+package com.example.hospitalbackend.billing.DTO;
+
+import com.example.hospitalbackend.billing.entity.ChiTietHoaDon;
 
 import java.util.List;
 

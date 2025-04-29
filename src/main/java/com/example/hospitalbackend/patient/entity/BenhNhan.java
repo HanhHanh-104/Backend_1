@@ -1,4 +1,4 @@
-package com.example.hospitalbackend.patient;
+package com.example.hospitalbackend.patient.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

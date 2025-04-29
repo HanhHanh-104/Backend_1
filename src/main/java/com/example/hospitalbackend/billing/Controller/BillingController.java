@@ -1,5 +1,8 @@
-package com.example.hospitalbackend.billing;
+package com.example.hospitalbackend.billing.Controller;
 
+import com.example.hospitalbackend.billing.Service.BillingService;
+import com.example.hospitalbackend.billing.entity.HoaDon;
+import com.example.hospitalbackend.billing.DTO.HoaDonDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

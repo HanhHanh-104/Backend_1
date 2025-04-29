@@ -1,8 +1,10 @@
-package com.example.hospitalbackend.billing;
+package com.example.hospitalbackend.billing.Service;
 
-import com.example.hospitalbackend.repository.HoaDonRepository;
-import com.example.hospitalbackend.repository.ChiTietHoaDonRepository;
-import com.example.hospitalbackend.billing.HoaDonDTO;
+import com.example.hospitalbackend.billing.entity.ChiTietHoaDon;
+import com.example.hospitalbackend.billing.entity.HoaDon;
+import com.example.hospitalbackend.billing.repository.HoaDonRepository;
+import com.example.hospitalbackend.billing.repository.ChiTietHoaDonRepository;
+import com.example.hospitalbackend.billing.DTO.HoaDonDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,7 @@
-package com.example.hospitalbackend.auth;
+package com.example.hospitalbackend.auth.Service;
 
 import com.example.hospitalbackend.auth.Entity.TaiKhoan;
+import com.example.hospitalbackend.auth.repository.TaiKhoanRepository;
 import com.example.hospitalbackend.patient.entity.BenhNhan;
 import com.example.hospitalbackend.patient.respository.BenhNhanRepository;
 import org.springframework.beans.factory.annotation.Autowired;

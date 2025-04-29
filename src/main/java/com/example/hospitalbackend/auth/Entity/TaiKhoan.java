@@ -1,23 +1,28 @@
-package com.example.hospitalbackend.auth;
+package com.example.hospitalbackend.auth.Entity;
 
 import com.example.hospitalbackend.patient.entity.BenhNhan;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
+import lombok.*;
+
 @Entity
 @Table(name = "TaiKhoan")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class TaiKhoan {
 
     @Id
     private String maTaiKhoan;
 
-    private String matKhau;
-
-    private String quyen; // VD: "BenhNhan
     @Column(unique = true)
     private String tenDangNhap;
 
-    @JsonIgnore
+    private String matKhau;
+
+    private String quyen;
+
     @OneToOne
     @JoinColumn(name = "maBenhNhan")
     private BenhNhan benhNhan;

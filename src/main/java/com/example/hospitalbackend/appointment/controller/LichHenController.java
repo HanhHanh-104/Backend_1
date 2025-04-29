@@ -1,5 +1,7 @@
-package com.example.hospitalbackend.appointment;
+package com.example.hospitalbackend.appointment.controller;
 
+import com.example.hospitalbackend.appointment.service.LichHenService;
+import com.example.hospitalbackend.appointment.entity.LichHen;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
